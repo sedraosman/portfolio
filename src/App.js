@@ -1,16 +1,6 @@
 import React from "react";
 import "./App.css";
 
-// Images
-import profileImg from "./assets/img/so.png";
-import skyImg from "./assets/img/sky.png";
-import productsImg from "./assets/img/products.png";
-import smartDayImg from "./assets/img/smartDay.png";
-import basketImg from "./assets/img/basket.png";
-import ecommerceImg from "./assets/img/e-commerce.png";
-import studentImg from "./assets/img/student.png";
-import taskImg from "./assets/img/task.png";
-import prayImg from "./assets/img/pray.png";
 // MUI
 import { Box, Container, Paper, Typography, Button } from "@mui/material";
 
@@ -32,7 +22,7 @@ function App() {
 
       {/* ================= HERO ================= */}
       <section className="section hero">
-        <img src={profileImg} alt="profile" style={{ height: "380px" }} />
+        <img src="/img/so.png" alt="profile" style={{ height: "380px" }} />
         <h1>Sedra Osman</h1>
         <h3>Computer Engineering Graduate</h3>
         <p>
@@ -121,7 +111,7 @@ function App() {
           }}
         >
           {/* AI & MAIN PROJECTS */}
-         <Project img={skyImg} 
+         <Project img={process.env.PUBLIC_URL +"/img/sky.png" }
           title="Atmos" 
           imghight="260"
           padding="0"
@@ -130,7 +120,7 @@ function App() {
           description= "A weather web application developed with React, providing real-time weather information with bilingual support."/>
 
      <Project 
-      img={productsImg}
+      img={process.env.PUBLIC_URL +"/img/products.png"}
           title="Gold Shop" 
           imghight="140"
           padding="75px"
@@ -139,7 +129,7 @@ function App() {
 
 
       <Project 
-      img={smartDayImg}
+      img={process.env.PUBLIC_URL +"/img/smartDay.png"}
           title="Smart Daily Assistant" 
           imghight="250px"
           padding="0"
@@ -147,7 +137,7 @@ function App() {
           description={"A mobile AI daily assistant app built with React Native that lets users write daily notes, analyze emotions with AI, and track mood changes over time."}/>
 
       <Project 
-      img={basketImg}
+      img={process.env.PUBLIC_URL +"/img/basket.png"} 
           title="Basketball Shot Detector" 
           imghight="220px"
           padding="0"
@@ -155,7 +145,7 @@ function App() {
           description={"A Python computer vision project that analyzes basketball videos to detect shots using color tracking and trajectory modeling with a simple GUI."}/>
 
       <Project 
-      img={ecommerceImg}
+      img={process.env.PUBLIC_URL +"/img/e-commerce.png"} 
           title="e-commerce" 
           imghight="145px"
           padding="70px"
@@ -165,7 +155,7 @@ function App() {
  
 
        <Project 
-      img={studentImg} 
+      img={process.env.PUBLIC_URL +"/img/student.png"}
           title="Studend Meeting" 
           imghight="170px"
           padding="50px"
@@ -173,7 +163,7 @@ function App() {
           description={" A Java appointment booking system for students and professors, supporting selection of available time slots and management of meeting requests."}/>
 
       <Project 
-      img={taskImg}
+      img={process.env.PUBLIC_URL +"/img/task.png"} 
           title="My Tasks" 
           imghight="200px"
           padding="20px"
@@ -182,7 +172,7 @@ function App() {
           description={"A task management web application developed with React, allowing users to add, edit, and delete daily tasks."}/>
 
        <Project 
-      img={prayImg}
+      img={process.env.PUBLIC_URL +"/img/pray.png"} 
           title="Prayer Times" 
           imghight="200px"
           padding="20px"
