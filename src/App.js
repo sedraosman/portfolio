@@ -24,10 +24,9 @@ function App() {
       <section className="section hero">
         <img src={process.env.PUBLIC_URL +"/img/sedra.png"} alt="profile" style={{ height: "380px" }} />
         <h1>Sedra Osman</h1>
-        <h3>Computer Engineering Graduate</h3>
-        <p>
-          I build clean, functional web and mobile applications using modern
-          technologies.
+        <h3>Computer Engineer | Web Developer | Passionate about AI and Software Development</h3>
+        <p style={{paddingTop:"20px"}}>
+        Computer Engineering graduate with an interest in web development, software projects, and learning more about AI technologies.
         </p>
         <Button
           variant="contained"
@@ -40,24 +39,28 @@ function App() {
 
       {/* ================= ABOUT ================= */}
       <section id="about" className="section">
-        <h2 style={{ marginTop: "100px", color: "#778873" }}>About Me</h2>
+        <h2 style={{ marginTop: "100px", color: "#778873" }}>About Me:</h2>
 
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Paper
             elevation={6}
             sx={{
               maxWidth: 700,
+              margin:"20px",
               padding: "30px",
               backgroundColor: "#A1BC98",
               color: "#3A3A3A",
             }}
           >
             <Typography>
-              • Computer Engineering graduate <br />
-              • Interested in Web & Mobile Application Development <br />
-              • Experience with React, Laravel, Python, and databases <br />
-              • Comfortable working with APIs and JSON data <br />
-              • Passionate about clean, readable, and maintainable code
+              I am a Computer Engineering graduate with a general interest in web development and software engineering.
+              I enjoy learning through small projects, improving my technical skills, and exploring different areas such as AI and application development.
+              <br/>
+              • Computer Engineering graduate  <br/>
+              • Basic experience in web development and software projects <br/> 
+              • Familiar with React, Laravel, Python, and databases  <br/>
+              • Interested in learning more about AI and modern software technologies <br/> 
+              • Motivated to grow and improve through hands-on practice
             </Typography>
           </Paper>
         </Box>
@@ -67,10 +70,10 @@ function App() {
       <section id="skills" className="section skills">
         <Container>
           <h2 style={{ marginTop: "100px", color: "#778873", textAlign: "center" }}>
-            Skills
+            Technical Skills:
           </h2>
 
-          <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+          <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap",margin:"20px" }}>
             {[
               "HTML", "CSS", "JavaScript", "React",
               "PHP", "Laravel",
@@ -99,15 +102,17 @@ function App() {
       {/* ================= PROJECTS ================= */}
       <section id="projects" className="section">
         <h2 style={{ marginTop: "180px", color: "#778873", textAlign: "center" }}>
-          Projects
+          Selected Projects:
         </h2>
 
         <div
           style={{
+            margin:"20px",
             display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
             gap: "20px",
+            
           }}
         >
           {/* AI & MAIN PROJECTS */}
