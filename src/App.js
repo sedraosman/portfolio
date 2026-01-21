@@ -22,7 +22,7 @@ function App() {
 
       {/* ================= HERO ================= */}
       <section className="section hero">
-        <img src={process.env.PUBLIC_URL +"/img/SO.png"} alt="profile" style={{ height: "380px" }} />
+        <img src={process.env.PUBLIC_URL +"/img/sedra.png"} alt="profile" style={{ height: "380px" }} />
         <h1>Sedra Osman</h1>
         <h3>Computer Engineering Graduate</h3>
         <p>
