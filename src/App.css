@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #A1BC98;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #778873;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* App.css */
+ 
+html {
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 🔴 kritik */
+  scroll-behavior: smooth;
+}
+
+body {
+  
+  font-family: Arial, sans-serif;
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 🔴 kritik */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #A1BC98;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #F1F3E0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #778873;
+}
+
+.section {
+  
+   display: flex;
+   flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+/* ===== Mobile & Tablet ===== */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;   /* stack links */
+    gap: 15px;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  /* Sections */
+  .section {
+    padding: 120px 20px;   /* more top space for fixed navbar */
+    flex-direction: column ;
+    text-align: center;
+  }
+  .div {
+    padding: 120px 20px;   /* more top space for fixed navbar */
+    flex-direction: column ;
+    text-align: center;
+  }
+}
+
+
+
+.footer {
+    width: 100%;    
+  background-color: #A1BC98;
+  color: #F1F3E0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  color: #D2DCB6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: #778873;
 }
