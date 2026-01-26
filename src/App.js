@@ -140,7 +140,7 @@ function App() {
       img={process.env.PUBLIC_URL +"/img/Budget.png"}
           title="Smart Budget" 
           github="https://github.com/sedraosman/SmartBudget"
-          description={"A React web application for personal finance management that lets users add and organize income and expenses, filter records by category and date, and view their balance using local data storage and a clean, user-friendly interface."}/>
+          description={"A React personal finance app that tracks income and expenses with filtering and balance overview."}/>
       
       <Project 
       img={process.env.PUBLIC_URL +"/img/products.png"}
