@@ -137,6 +137,12 @@ function App() {
           description={"A mobile AI daily assistant app built with React Native that lets users write daily notes, analyze emotions with AI, and track mood changes over time."}/>
 
       <Project 
+      img={process.env.PUBLIC_URL +"/img/Budget.png"}
+          title="Smart Budget" 
+          github="https://github.com/sedraosman/SmartBudget"
+          description={"A React web application for personal finance management that lets users add and organize income and expenses, filter records by category and date, and view their balance using local data storage and a clean, user-friendly interface."}/>
+      
+      <Project 
       img={process.env.PUBLIC_URL +"/img/products.png"}
           title="Gold Shop" 
           github="https://github.com/sedraosman/goldShop"
