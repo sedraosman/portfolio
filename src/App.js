@@ -116,11 +116,7 @@ function App() {
           }}
         >
           {/* AI & MAIN PROJECTS */}
-         <Project img={process.env.PUBLIC_URL +"/img/sky.png" }
-          title="Atmos" 
-          github="https://github.com/sedraosman/Atmos"
-          description= "A weather web application developed with React, providing real-time weather information with bilingual support."/>
-
+         
 
       <Project 
       img={process.env.PUBLIC_URL +"/img/pray.png"} 
@@ -141,6 +137,7 @@ function App() {
           title="Smart Budget" 
           github="https://github.com/sedraosman/SmartBudget"
           description={"A React personal finance app that tracks income and expenses with filtering and balance overview."}/>
+      
       
       <Project 
       img={process.env.PUBLIC_URL +"/img/products.png"}
@@ -163,18 +160,8 @@ function App() {
           description={"A web application developed with Laravel featuring product display, shopping cart, checkout, and a basic admin dashboard."}/>
  
 
-       <Project 
-      img={process.env.PUBLIC_URL +"/img/student.png"}
-          title="Studend Meeting" 
-          github="https://github.com/sedraosman/studend-rendezvous"
-          description={" A Java appointment booking system for students and professors, supporting selection of available time slots and management of meeting requests."}/>
-
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/task.png"} 
-          title="My Tasks" 
-          github="https://github.com/sedraosman/My_Tasks"
-          description={"A task management web application developed with React, allowing users to add, edit, and delete daily tasks."}/>
-
+      
+      
        </div>
       </section>
 
