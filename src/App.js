@@ -155,7 +155,7 @@ function App() {
 
       <Project 
       img={process.env.PUBLIC_URL +"/img/e-commerce.png"} 
-          title="e-commerce" 
+          title="E-commerce" 
           github="https://github.com/sedraosman/e-commerce2"
           description={"A web application developed with Laravel featuring product display, shopping cart, checkout, and a basic admin dashboard."}/>
  
