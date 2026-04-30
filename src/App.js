@@ -24,10 +24,9 @@ function App() {
       <section className="section hero">
         <img src={process.env.PUBLIC_URL +"/img/sedra.png"} alt="profile" style={{ height: "380px" }} />
         <h1>Sedra Osman</h1>
-        <h3>Computer Engineer | Web Developer | Passionate about AI and Software Development</h3>
+        <h3>CComputer Engineer | Web Developer | Interested in AI and Software Development</h3>
         <p style={{paddingTop:"20px"}}>
-        Computer Engineering graduate with an interest in web development, software projects, and learning more about AI technologies.
-        </p>
+        Computer Engineering graduate interested in web and software development. I enjoy building small projects and improving my skills, and I am currently learning Flutter to expand into mobile development.</p>
         <Button
           variant="contained"
           sx={{ mt: 2, backgroundColor: "#778873" }}
@@ -53,17 +52,17 @@ function App() {
             }}
           >
             <Typography>
-              I am a Computer Engineering graduate with a general interest in web development and software engineering.
-              I enjoy learning through small projects, improving my technical skills, and exploring different areas such as AI and application development.
-              <br/>
+              I am a Computer Engineering graduate with an interest in web development and software engineering. I enjoy learning through small projects, improving my technical skills, and exploring areas such as AI and application development.
+               I am currently learning Flutter and building mobile applications to expand my skills.
               • Computer Engineering graduate  <br/>
-              • Basic experience in web development and software projects <br/> 
+              • experience in web development and software projects <br/> 
               • Familiar with React, Laravel, Python, and databases  <br/>
-              • Interested in learning more about AI and modern software technologies <br/> 
-              • Motivated to grow and improve through hands-on practice
+              • Currently learning Flutter and building mobile apps  <br/>
+              • Interested in AI and modern software technologies <br/> 
+              • Motivated to grow through hands-on practice
             </Typography>
           </Paper>
-        </Box>
+        </Box>  
       </section>
 
       {/* ================= SKILLS ================= */}
@@ -133,10 +132,10 @@ function App() {
           description={"A mobile AI daily assistant app built with React Native that lets users write daily notes, analyze emotions with AI, and track mood changes over time."}/>
 
       <Project 
-      img={process.env.PUBLIC_URL +"/img/Budget.png"}
-          title="Smart Budget" 
-          github="https://github.com/sedraosman/SmartBudget"
-          description={"A React personal finance app that tracks income and expenses with filtering and balance overview."}/>
+      img={process.env.PUBLIC_URL +"/img/chatme.png"}
+          title="Chat Me" 
+          github="https://github.com/sedraosman/ChatMe"
+          description={"A real-time chat application built with Flutter and Firebase, allowing users to sign in, send and receive messages instantly, and interact through a simple and responsive interface."}/>
       
       
       <Project 
