@@ -52,14 +52,10 @@ function App() {
             }}
           >
             <Typography>
-              I am a Computer Engineering graduate with an interest in web development and software engineering. I enjoy learning through small projects, improving my technical skills, and exploring areas such as AI and application development.
-               I am currently learning Flutter and building mobile applications to expand my skills.
-              • Computer Engineering graduate  <br/>
-              • experience in web development and software projects <br/> 
-              • Familiar with React, Laravel, Python, and databases  <br/>
-              • Currently learning Flutter and building mobile apps  <br/>
-              • Interested in AI and modern software technologies <br/> 
-              • Motivated to grow through hands-on practice
+          I am a Computer Engineering graduate with a strong interest in web and software development.
+          I have experience building projects using React, Laravel, Python, and databases.
+          I enjoy learning through hands-on projects and exploring different areas such as mobile development and AI.
+          I am currently expanding my skills in Flutter and building mobile applications.
             </Typography>
           </Paper>
         </Box>  
@@ -101,7 +97,7 @@ function App() {
       {/* ================= PROJECTS ================= */}
       <section id="projects" className="section">
         <h2 style={{ marginTop: "180px", color: "#778873", textAlign: "center" }}>
-          Selected Projects:
+           Projects:
         </h2>
 
         <div
@@ -115,50 +111,49 @@ function App() {
           }}
         >
           {/* AI & MAIN PROJECTS */}
-         
-
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/pray.png"} 
-          title="Prayer Times" 
-          github="https://github.com/sedraosman/prayer-times"
-          description={"A React web application that retrieves daily prayer times from an external API, displays them clearly, and calculates the real-time countdown to the next upcoming prayer."}/>
-        
-
-     
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/smartDay.png"}
-          title="Smart Daily Assistant" 
-          github="https://github.com/sedraosman/Smart-Daily-Assistant"
-          description={"A mobile AI daily assistant app built with React Native that lets users write daily notes, analyze emotions with AI, and track mood changes over time."}/>
-
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/chatme.png"}
-          title="Chat Me" 
-          github="https://github.com/sedraosman/ChatMe"
-          description={"A real-time chat application built with Flutter and Firebase, allowing users to sign in, send and receive messages instantly, and interact through a simple and responsive interface."}/>
-      
-      
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/products.png"}
-          title="Gold Shop" 
-          github="https://github.com/sedraosman/goldShop"
-          description={"A React web application that displays products from JSON data and dynamically calculates and shows gold prices fetched from the web."}/>
-
-
-      
-      <Project 
-      img={process.env.PUBLIC_URL +"/img/basket.png"} 
-          title="Basketball Shot Detector" 
-          github="https://github.com/sedraosman/Basketball-Shot-Detector"
-          description={"A Python computer vision project that analyzes basketball videos to detect shots using color tracking and trajectory modeling with a simple GUI."}/>
-
       <Project 
       img={process.env.PUBLIC_URL +"/img/e-commerce.png"} 
           title="E-commerce" 
           github="https://github.com/sedraosman/e-commerce2"
-          description={"A web application developed with Laravel featuring product display, shopping cart, checkout, and a basic admin dashboard."}/>
+          description={"A full-stack e-commerce web application built with Laravel and MySQL.It allows users to browse products, manage a shopping cart, and complete checkout."}/>
  
+        <Project 
+      img={process.env.PUBLIC_URL +"/img/chatme.png"}
+          title="Chat Me" 
+          github="https://github.com/sedraosman/ChatMe"
+          description={"A real-time chat application built with Flutter and Firebase.It allows users to sign in and send messages instantly using Firestore"}/>
+      
+         <Project 
+      img={process.env.PUBLIC_URL +"/img/basket.png"} 
+          title="Basketball Shot Detector" 
+          github="https://github.com/sedraosman/Basketball-Shot-Detector"
+          description={"A computer vision project built with Python and OpenCV to detect basketball shots from videos.It uses trajectory analysis to identify shot movements."}/>
 
+           <Project 
+      img={process.env.PUBLIC_URL +"/img/smartDay.png"}
+          title="Smart Daily Assistant" 
+          github="https://github.com/sedraosman/Smart-Daily-Assistant"
+          description={"A mobile application built with React Native for daily mood tracking and emotion analysis.It helps users log moods and track emotional patterns over time."}/>
+
+    
+      <Project 
+      img={process.env.PUBLIC_URL +"/img/pray.png"} 
+          title="Prayer Times" 
+          github="https://github.com/sedraosman/prayer-times"
+          description={"A React web application that fetches daily prayer times from an external API.It displays real-time countdown to the next prayer."}/>
+        
+
+    
+      <Project 
+      img={process.env.PUBLIC_URL +"/img/products.png"}
+          title="Gold Shop" 
+          github="https://github.com/sedraosman/goldShop"
+          description={"A React web application that displays products and dynamically calculates gold prices.It updates pricing based on external data sources"}/>
+
+
+      
+     
+      
       
       
        </div>
