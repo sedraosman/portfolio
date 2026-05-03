@@ -24,7 +24,7 @@ function App() {
       <section className="section hero">
         <img src={process.env.PUBLIC_URL +"/img/sedra.png"} alt="profile" style={{ height: "380px" }} />
         <h1>Sedra Osman</h1>
-        <h3>CComputer Engineer | Web Developer | Interested in AI and Software Development</h3>
+        <h3>Computer Engineer | Web Developer | Interested in AI and Software Development</h3>
         <p style={{paddingTop:"20px"}}>
         Computer Engineering graduate interested in web and software development. I enjoy building small projects and improving my skills, and I am currently learning Flutter to expand into mobile development.</p>
         <Button
