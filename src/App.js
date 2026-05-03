@@ -26,7 +26,7 @@ function App() {
         <h1>Sedra Osman</h1>
         <h3>Computer Engineer | Web Developer | Interested in AI and Software Development</h3>
         <p style={{paddingTop:"20px"}}>
-        Computer Engineering graduate interested in web and software development. I enjoy building small projects and improving my skills, and I am currently learning Flutter to expand into mobile development.</p>
+        A Computer Engineering graduate with an interest in web and software development. I enjoy building projects and continuously improving my skills. I am currently learning Flutter to expand into mobile application development.</p>
         <Button
           variant="contained"
           sx={{ mt: 2, backgroundColor: "#778873" }}
